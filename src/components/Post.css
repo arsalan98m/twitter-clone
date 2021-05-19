@@ -1,0 +1,65 @@
+.post {
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+
+.post__body {
+  flex: 1;
+  padding: 10px;
+
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1170px) {
+  .post__body {
+    width: 300px;
+  }
+}
+
+.post__body > img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.post__bodyFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.post__bodyBadge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post__bodyHeaderSpecial {
+  font-weight: 600;
+  color: gray;
+  font-size: 12px;
+}
+
+.post__avatar {
+  padding: 20px;
+}
+
+.post__bodyHeaderDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.post__bodyFooter > .MuiSvgIcon-root {
+  cursor: pointer !important  ;
+}
+
+.post__bodyFooter .post__bodyFooterLikedIcon {
+  color: red !important;
+}
+
+.post__bodyFooterLike {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

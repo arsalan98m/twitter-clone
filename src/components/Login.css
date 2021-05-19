@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container {
+  padding: 20px;
+}
+
+.login__container h1 {
+  color: var(--twitter-color);
+  margin-bottom: 20px;
+}
+.login img {
+  object-fit: contain;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 20px;
+}
